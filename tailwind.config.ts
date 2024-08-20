@@ -7,11 +7,22 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    fontFamily: {
+      primary: "var(--font-cormorantUpright)",
+      secondary: "var(--font-openSans)",
+    },
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      colors: {
+        primary: {
+          DEFAULT: "#100e0e",
+        },
+        secondary: {
+          DEFAULT: "#787f8a",
+        },
+        accent: {
+          DEFAULT: "#c7a17a",
+          hover: "#a08161",
+        },
       },
     },
   },

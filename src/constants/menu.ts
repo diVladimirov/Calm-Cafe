@@ -1,3 +1,11 @@
+export const MENUDESCRIPTION = ` Indulge in our handcrafted selection of coffee and delightful
+            treats. Our menu is designed to awaken your senses, whether you're
+            in the mood for a classic espresso, a rich and creamy latte, or a
+            refreshing iced coffee. Pair your drink with one of our freshly
+            baked pastries or savory snacks, all made with the finest
+            ingredients. Relax, unwind, and let us take you on a flavorful
+            journey.`;
+
 export const MENU = [
   {
     imgSrc: "/assets/menu/coffee-1.png",

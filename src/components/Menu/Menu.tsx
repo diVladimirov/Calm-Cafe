@@ -1,4 +1,4 @@
-import { MENU } from "@/constants/menu";
+import { MENU, MENUDESCRIPTION } from "@/constants/menu";
 import Separator from "../Separator";
 import MenuItem from "./MenuItem";
 
@@ -11,15 +11,7 @@ export default function Menu() {
           <div className="mb-4">
             <Separator bg="accent" />
           </div>
-          <p className="text-center max-w-[620px] mx-auto">
-            Indulge in our handcrafted selection of coffee and delightful
-            treats. Our menu is designed to awaken your senses, whether you're
-            in the mood for a classic espresso, a rich and creamy latte, or a
-            refreshing iced coffee. Pair your drink with one of our freshly
-            baked pastries or savory snacks, all made with the finest
-            ingredients. Relax, unwind, and let us take you on a flavorful
-            journey.
-          </p>
+          <p className="text-center max-w-[620px] mx-auto">{MENUDESCRIPTION}</p>
         </div>
         <div className="flex flex-col items-center gap-12 xl:gap-24">
           <ul className="w-full grid grid-cols-1 xl:grid-cols-2 gap-y-8 gap-x-16 place-content-center">
